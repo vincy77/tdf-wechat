@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,p,ul,li{
+  margin: 0;
+  padding: 0;
+}
+h1, h2 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  //color: #42b983;
+  text-decoration: none;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.cb{
+  clear: both;
+}
